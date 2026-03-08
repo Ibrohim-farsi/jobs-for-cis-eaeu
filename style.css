@@ -1,0 +1,19 @@
+ * {
+     margin: 0%;
+ }
+
+ header {
+     width: 100%;
+     background-color: white;
+     border-bottom: 2px solid lightgray;
+     position: fixed;
+     padding: 15px 0px;
+ }
+
+ nav {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 90%;
+     margin: auto;
+ }
