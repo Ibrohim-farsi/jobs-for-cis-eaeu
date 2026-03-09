@@ -533,3 +533,74 @@ footer {
   border-radius: 50%;
   font-size: 18px;
 }
+
+@media (max-width: 768px) {
+  .box {
+    padding: 0 16px;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-right {
+    display: none;
+  }
+
+  .hero-title {
+    font-size: 26px;
+  }
+
+  .hero-left {
+    padding: 24px 20px;
+  }
+
+  .banner {
+    flex-direction: column;
+    padding: 24px 20px;
+  }
+
+  .banner-img {
+    display: none;
+  }
+
+  .banner-title {
+    font-size: 28px;
+  }
+
+  .grid4 {
+    grid-template-columns: 1fr;
+  }
+
+  .phone-cta {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .phone-right {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .phone-input {
+    width: 100%;
+  }
+
+  .steps {
+    grid-template-columns: 1fr;
+  }
+
+  .hot {
+    flex-direction: column;
+    padding: 24px 20px;
+  }
+
+  .hot-phone {
+    display: none;
+  }
+
+  .hot-title {
+    font-size: 28px;
+  }
+}
